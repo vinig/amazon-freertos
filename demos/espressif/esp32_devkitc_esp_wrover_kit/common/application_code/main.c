@@ -52,7 +52,7 @@
 #define mainLOGGING_MESSAGE_QUEUE_LENGTH    ( 32 )
 #define mainLOGGING_TASK_STACK_SIZE         ( configMINIMAL_STACK_SIZE * 6 )
 #define mainDEVICE_NICK_NAME                "Espressif_Demo"
-#define BLINK_GPIO CONFIG_BLINK_GPIO
+#define BLINK_GPIO 13
 
 /* Declare the firmware version structure for all to see. */
 const AppVersion32_t xAppFirmwareVersion = {
